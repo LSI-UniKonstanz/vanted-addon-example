@@ -9,7 +9,7 @@
  * the used libraries. For further details see license.txt in the root
  * folder of this project.
  ************************************************************************************/
-package edu.monash.vanted.exampleaddon;
+package org.vanted.addons.exampleaddon;
 
 import java.awt.AWTEvent;
 import java.awt.Graphics;

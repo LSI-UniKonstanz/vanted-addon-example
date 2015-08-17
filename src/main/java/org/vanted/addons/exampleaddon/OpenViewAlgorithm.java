@@ -9,7 +9,7 @@
  * the used libraries. For further details see license.txt in the root
  * folder of this project.
  ************************************************************************************/
-package edu.monash.vanted.exampleaddon;
+package org.vanted.addons.exampleaddon;
 
 import org.graffiti.editor.MainFrame;
 import org.graffiti.plugin.algorithm.AbstractEditorAlgorithm;

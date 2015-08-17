@@ -9,7 +9,7 @@
  * the used libraries. For further details see license.txt in the root
  * folder of this project.
  ************************************************************************************/
-package edu.monash.vanted.exampleaddon.attribute_component;
+package org.vanted.addons.exampleaddon.attribute_component;
 
 import java.util.ArrayList;
 import java.util.List;

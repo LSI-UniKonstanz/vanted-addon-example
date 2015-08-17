@@ -9,7 +9,7 @@
  * the used libraries. For further details see license.txt in the root
  * folder of this project.
  ************************************************************************************/
-package edu.monash.vanted.exampleaddon;
+package org.vanted.addons.exampleaddon;
 
 import javax.swing.ImageIcon;
 
@@ -22,12 +22,12 @@ import org.graffiti.plugin.algorithm.Algorithm;
 import org.graffiti.plugin.gui.GraffitiComponent;
 import org.graffiti.plugin.inspector.InspectorTab;
 import org.graffiti.plugin.io.OutputSerializer;
+import org.vanted.addons.exampleaddon.attribute_component.AddStarsToGraphElements;
+import org.vanted.addons.exampleaddon.attribute_component.StarAttribute;
+import org.vanted.addons.exampleaddon.attribute_component.StarAttributeComponent;
+import org.vanted.addons.exampleaddon.attribute_component.StarAttributeEditor;
 
 import de.ipk_gatersleben.ag_nw.graffiti.plugins.addons.AddonAdapter;
-import edu.monash.vanted.exampleaddon.attribute_component.AddStarsToGraphElements;
-import edu.monash.vanted.exampleaddon.attribute_component.StarAttribute;
-import edu.monash.vanted.exampleaddon.attribute_component.StarAttributeComponent;
-import edu.monash.vanted.exampleaddon.attribute_component.StarAttributeEditor;
 
 /**
  * @author Hendrik Rohn

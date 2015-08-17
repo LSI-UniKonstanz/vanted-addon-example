@@ -12,7 +12,7 @@
 /*
  * Created on Mar 17, 2010 by Christian Klukas
  */
-package edu.monash.vanted.exampleaddon;
+package org.vanted.addons.exampleaddon;
 
 /**
  * @author klukas

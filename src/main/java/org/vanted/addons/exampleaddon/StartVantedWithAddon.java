@@ -9,7 +9,7 @@
  * the used libraries. For further details see license.txt in the root
  * folder of this project.
  ************************************************************************************/
-package edu.monash.vanted.exampleaddon;
+package org.vanted.addons.exampleaddon;
 
 import de.ipk_gatersleben.ag_nw.graffiti.plugins.gui.webstart.Main;
 
