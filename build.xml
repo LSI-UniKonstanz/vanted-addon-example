@@ -24,11 +24,9 @@
 
 
 			<fileset dir="target/classes" />
-			<!-- <fileset dir="src/main/java"> <include name="**/*.java" /> <include 
-				name="**/*.xml" /> </fileset> -->
-			<fileset dir="src/main/resources">
-				<include name="**/*.*" />
-			</fileset>
+            <!-- <fileset dir="src/main/java"> <include name="**/*.java" /> <include 
+                name="**/*.xml" /> </fileset> -->
+
 			<!-- dont forget to include yours libs using this command -->
 			<zipfileset excludes="META-INF/*.SF"
 				src="${jar.dest.path}/dependencies-all.jar" />
