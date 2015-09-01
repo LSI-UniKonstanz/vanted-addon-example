@@ -73,7 +73,7 @@ public class ExemplaryAddon extends AddonAdapter {
 		// registers a number of views, which can be created from code or via
 		// File->New View (you can also decide not to register, but just to create
 		// such views from code.
-		this.views = new String[] { "edu.monash.vanted.exampleaddon.MyFirstView" };
+		this.views = new String[] { MyFirstView.class.getName() };
 		
 		// registers a new Button in the Toolbar
 		this.guiComponents = new GraffitiComponent[] {
