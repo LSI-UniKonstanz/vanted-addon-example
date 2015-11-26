@@ -27,6 +27,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 import org.BackgroundTaskStatusProviderSupportingExternalCall;
+import org.graffiti.attributes.Attribute;
 import org.graffiti.editor.MainFrame;
 import org.graffiti.editor.MessageType;
 import org.graffiti.event.AttributeEvent;
@@ -58,10 +59,10 @@ import org.graffiti.session.EditorSession;
 
 // public class MyFirstView extends GraffitiView
 public class MyFirstView extends JComponent
-					implements
-					Printable,
-					View2D,
-					SelectionListener {
+		implements
+		Printable,
+		View2D,
+		SelectionListener {
 	
 	/**
 	 * 
@@ -84,7 +85,7 @@ public class MyFirstView extends JComponent
 	}
 	
 	public int print(Graphics graphics, PageFormat pageFormat, int pageIndex)
-						throws PrinterException {
+			throws PrinterException {
 		// 
 		return 0;
 	}
@@ -116,7 +117,7 @@ public class MyFirstView extends JComponent
 	}
 	
 	public Set<AttributeComponent> getAttributeComponentsForElement(
-						GraphElement ge) {
+			GraphElement ge) {
 		// 
 		return null;
 	}
@@ -375,7 +376,7 @@ public class MyFirstView extends JComponent
 	}
 	
 	public void transactionFinished(TransactionEvent e,
-						BackgroundTaskStatusProviderSupportingExternalCall status) {
+			BackgroundTaskStatusProviderSupportingExternalCall status) {
 		// 
 		
 	}
@@ -427,4 +428,9 @@ public class MyFirstView extends JComponent
 		// 
 		return false;
 	}
+	
+	@Override
+	public void attributeChanged(Attribute attr) {
+	}
+	
 }
