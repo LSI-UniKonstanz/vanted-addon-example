@@ -1,0 +1,16 @@
+I"ª<h2 id="vanted">VANTED</h2>
+
+<p><a href="http://vanted.org">VANTED</a> is an extendible software. Additional functionality can be provided by Add-ons. These are libraries that can be added during runtime to provide new algorithms, user-interfaces and visual network components. Add-ons can use the provided <a href="http://kim25.wwwdns.kim.uni-konstanz.de/vanted/javadoc/">APIs</a> to easily access and change attributes, setup and call algorithms, etc.</p>
+
+<p>To start development it is a good idea to download the example-addon code. It is, as the VANTED project itself, already an Eclipse project. After you have unzipped the file, copy the directory to the workspace directory, where the VANTED source resides. Import the Add-on example project into the VANTED workspace.</p>
+
+<h2 id="documentation">Documentation</h2>
+
+<p>The following explains the most important parts of the directory structure, necessary files and some method calls of the VANTED API.</p>
+<ul>
+  <li><a href="https://github.com/LSI-UniKonstanz/vanted/wiki/ProjectStructure">Project Structure and Compilation</a></li>
+  <li><a href="https://github.com/LSI-UniKonstanz/vanted/wiki/AddonExtensions">Adding new Algorithms, Views, and Visual Graph Components</a></li>
+</ul>
+
+<p>For further information please see the <a href="https://github.com/LSI-UniKonstanz/vanted/wiki">Wiki</a> or contact the developers via <a href="mailto:feedback@vanted.org">feedback@vanted.org</a>.</p>
+:ET

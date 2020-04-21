@@ -1,1 +1,5 @@
+title: Example Add-on
+description: An example on how to extend the VANTED system.
+show_downloads: true
+google_analytics: false
 theme: jekyll-theme-slate
