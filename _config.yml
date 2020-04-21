@@ -3,3 +3,6 @@ description: An example on how to extend the VANTED system.
 show_downloads: true
 google_analytics: false
 theme: jekyll-theme-slate
+github:
+  zip_url: https://github.com/LSI-UniKonstanz/vanted-addon-example/zipball/master
+  tar_url: https://github.com/LSI-UniKonstanz/vanted-addon-example/tarball/master
