@@ -27,13 +27,13 @@ import org.graffiti.plugins.views.defaults.GradientFillAttributeEditor;
  */
 public class StarAttributeEditor extends AbstractValueEditComponent {
 	
-	private final JComboBox checkbox;
+	private final JComboBox<String> checkbox;
 	public static String[] validStarSettings = new String[] { "0", "1", "2", "3",
 						"4", "5" };
 	
 	public StarAttributeEditor(Displayable disp) {
 		super(disp);
-		checkbox = new JComboBox(validStarSettings);
+		checkbox = new JComboBox<String>(validStarSettings);
 		checkbox.setOpaque(false);
 		checkbox.setSelectedItem(disp.getValue());
 	}
